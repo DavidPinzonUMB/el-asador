@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="es-CO">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Contáctanos en Carnes Premium El Asador: dirección, teléfonos, correo y formulario para pedidos."
+    />
+    <title>Contacto · Carnes Premium El Asador</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@500;700&display=swap"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="barra-superior">★ Cortes seleccionados · Madurados al punto perfecto · Despachos en 24 h</div>
+
+    <header class="encabezado">
+      <div class="contenedor">
+        <a class="marca" href="index.html">
+          <span class="logo">🔥</span>
+          <div>
+            <h1>El Asador</h1>
+            <p>Carnes Premium</p>
+          </div>
+        </a>
+        <nav>
+          <ul class="menu">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="productos.html">Cortes</a></li>
+            <li><a href="galeria.html">Galería</a></li>
+            <li><a class="activo" href="contacto.html">Contacto</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section class="seccion">
+      <div class="contenedor">
+        <div class="seccion-encabezado">
+          <span class="pretitulo">Hablemos</span>
+          <h2>Asesoría de un experto, a un mensaje de distancia</h2>
+          <p>
+            Pedidos personalizados, cotizaciones para restaurantes o domicilios el mismo día.
+            Estamos para servirte.
+          </p>
+        </div>
+
+        <div class="contacto-grid">
+          <div class="contacto-info">
+            <h3>Información de contacto</h3>
+            <ul>
+              <li>
+                <span class="icono">📍</span>
+                <div>
+                  <strong>Dirección</strong>
+                  <span>Carrera 43A #19-15, El Poblado, Medellín (Antioquia)</span>
+                </div>
+              </li>
+              <li>
+                <span class="icono">📞</span>
+                <div>
+                  <strong>Teléfono fijo</strong>
+                  <span>(+57) 604 444 1200</span>
+                </div>
+              </li>
+              <li>
+                <span class="icono">📱</span>
+                <div>
+                  <strong>WhatsApp pedidos</strong>
+                  <span>(+57) 318 770 4421</span>
+                </div>
+              </li>
+              <li>
+                <span class="icono">✉️</span>
+                <div>
+                  <strong>Correo</strong>
+                  <span>pedidos@elasador.co</span>
+                </div>
+              </li>
+              <li>
+                <span class="icono">🕒</span>
+                <div>
+                  <strong>Horario</strong>
+                  <span>Martes a domingo · 9:00 a.m. – 7:00 p.m.</span>
+                </div>
+              </li>
+              <li>
+                <span class="icono">🚚</span>
+                <div>
+                  <strong>Domicilios</strong>
+                  <span>Sin costo en pedidos superiores a $ 150.000 dentro del Valle de Aburrá.</span>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <form
+            class="formulario"
+            onsubmit="event.preventDefault(); alert('¡Gracias! Tu mensaje fue enviado. Te responderemos pronto.');"
+          >
+            <h3>Solicita tu pedido</h3>
+
+            <label for="nombre">Nombre completo</label>
+            <input id="nombre" type="text" placeholder="Ej.: Andrés Vélez" required />
+
+            <label for="telefono">Teléfono o WhatsApp</label>
+            <input id="telefono" type="tel" placeholder="+57 318 000 0000" required />
+
+            <label for="correo">Correo electrónico</label>
+            <input id="correo" type="email" placeholder="tu@correo.com" required />
+
+            <label for="mensaje">¿Qué necesitas?</label>
+            <textarea
+              id="mensaje"
+              placeholder="Cuéntanos qué cortes te interesan, cantidades y fecha de entrega…"
+              required
+            ></textarea>
+
+            <button type="submit" class="boton" style="width: 100%; padding: 1.05rem">
+              Enviar solicitud →
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer class="pie">
+      <div class="contenedor">
+        <div>
+          <h4>Carnes Premium El Asador</h4>
+          <p style="font-size: 0.9rem">
+            Carnicería gourmet especializada en cortes madurados y seleccionados.
+          </p>
+        </div>
+        <div>
+          <h4>Navegación</h4>
+          <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="productos.html">Cortes</a></li>
+            <li><a href="galeria.html">Galería</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Contacto</h4>
+          <ul>
+            <li>Carrera 43A #19-15, Medellín</li>
+            <li>(+57) 604 444 1200</li>
+            <li>pedidos@elasador.co</li>
+          </ul>
+        </div>
+      </div>
+      <p class="copy">© 2026 Carnes Premium El Asador S.A.S · Todos los derechos reservados</p>
+    </footer>
+  </body>
+</html>
