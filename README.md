@@ -2,8 +2,8 @@
 
 Sitio web de **Carnes Premium El Asador S.A.S**, carnicería gourmet especializada en cortes madurados y seleccionados. Presenta la propuesta de valor, el catálogo de cortes, información de contacto y una galería corporativa.
 
-🌐 **Sitio publicado:** se actualizará al final del despliegue  
-📦 **Repositorio:** se actualizará al final del despliegue
+🌐 **Sitio publicado:** <https://davidpinzonumb.github.io/el-asador/>  
+📦 **Repositorio:** <https://github.com/DavidPinzonUMB/el-asador>
 
 ---
 
