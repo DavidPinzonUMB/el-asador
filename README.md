@@ -1,9 +1,9 @@
-# Carnes Premium El Asador
+# Empresa de Cárnicos
 
-Sitio web de **Carnes Premium El Asador S.A.S**, carnicería gourmet especializada en cortes madurados y seleccionados. Presenta la propuesta de valor, el catálogo de cortes, información de contacto y una galería corporativa.
+Sitio web de **Empresa de Cárnicos S.A.S**, carnicería gourmet especializada en cortes madurados y seleccionados. Presenta la propuesta de valor, el catálogo de cortes, información de contacto y una galería corporativa.
 
-🌐 **Sitio publicado:** <https://davidpinzonumb.github.io/el-asador/>  
-📦 **Repositorio:** <https://github.com/DavidPinzonUMB/el-asador>
+🌐 **Sitio publicado:** <https://davidpinzonumb.github.io/EmpresaDeCarnicos/>  
+📦 **Repositorio:** <https://github.com/DavidPinzonUMB/EmpresaDeCarnicos>
 
 ---
 
@@ -19,7 +19,7 @@ Sitio web de **Carnes Premium El Asador S.A.S**, carnicería gourmet especializa
 ## Estructura del proyecto
 
 ```
-el-asador/
+EmpresaDeCarnicos/
 ├── index.html         # Página principal
 ├── productos.html     # Catálogo de cortes
 ├── contacto.html      # Contacto
@@ -40,13 +40,13 @@ el-asador/
 ## Cómo ver el sitio
 
 ### En línea
-Abrir la URL pública (publicada con GitHub Pages).
+Abrir <https://davidpinzonumb.github.io/EmpresaDeCarnicos/> en el navegador.
 
 ### Localmente
 
 ```bash
-git clone <url-del-repositorio>
-cd el-asador
+git clone https://github.com/DavidPinzonUMB/EmpresaDeCarnicos.git
+cd EmpresaDeCarnicos
 start index.html        # Windows
 # open index.html       # macOS
 # xdg-open index.html   # Linux
